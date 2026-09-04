@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+dist/
+.env
+.env.*
+!.env.example
+coverage/
+.DS_Store
+text.txt
+
+# Environment variables
+.env
+.env.example
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
+
+# Optional npm cache
+.npm/text.txt
