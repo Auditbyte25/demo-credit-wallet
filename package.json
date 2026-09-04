@@ -11,6 +11,7 @@
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
+    "migrate": "knex migrate:latest",
     "knex": "knex",
     "knex:dev:latest": "node -r ts-node/register ./node_modules/.bin/knex migrate:latest",
     "knex:dev:seed": "node -r ts-node/register ./node_modules/.bin/knex seed:make seedUsers"
