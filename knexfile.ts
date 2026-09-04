@@ -1,20 +1,20 @@
 import { Knex } from "knex";
 
 const config: Knex.Config = {
-    client: "mysql2",
-    connection: {
-        host: "127.0.0.1",
-        port: 3306,
-        user: "root",
-        password: "",       // or your actual root password
-        database: "todo",
-    },
-    migrations: {
-        directory: "./src/database/migrations",
+  client: "mysql2",
+  connection: {
+    host: process.env.DB_HOST,
+    port: Number(process.env.DB_PORT || 3306),
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME,
   },
-    seeds: {
-    directory: "./src/database/seeds"
-  }
+  migrations: {
+    directory: "./src/database/migrations",
+  },
+  seeds: {
+    directory: "./src/database/seeds",
+  },
 };
 
 export default config;
