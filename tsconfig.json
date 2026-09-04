@@ -5,16 +5,15 @@
     "strict": true,
     "esModuleInterop": true,
     "outDir": "./dist",
-    "skipLibCheck": true,
-    "rootDirs": [
-      "."
-    ],
+    "rootDir": "./src",
+    "skipLibCheck": true
   },
   "include": [
-    "**/*.ts",
     "src/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "tests",
+    "dist"
   ]
 }
