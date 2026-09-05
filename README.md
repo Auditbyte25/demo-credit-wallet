@@ -1290,7 +1290,3 @@ AWS • REST APIs • Microservices
 ```
 
 ---
-
-# License
-
-This project is intended for demonstration and educational purposes.
