@@ -1,4 +1,5 @@
 # Demo Credit Wallet
+**Test and view the complete API documentation using Postman:** [View API](https://www.postman.com/oopaletijohnson-630712/demo-credit-wallet/collection/uoiun8y/credit-wallet?action=share&creator=53839187)
 
 A secure and transactional **digital credit wallet API** built with **Node.js, TypeScript, Express.js, Knex.js, and MySQL**.
 
